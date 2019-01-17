@@ -100,8 +100,10 @@ can be used in visual mode
 :registers - list all registers
 
 Macro
-q - start record
+q(macro_name) - start record
 q - stop record
+@(macro_name) - play once 
+N@(macro_name) - play record N times
 
 Sources
 https://vim.rtorr.com/
